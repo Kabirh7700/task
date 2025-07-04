@@ -79,7 +79,7 @@ export const Dashboard: React.FC<DashboardProps> = (props) => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
              <div>
-                <label htmlFor="task-type-filter" className="block text-sm font-medium text-slate-600 mb-1.5">Task Type</label>
+                <label htmlFor="task-type-filter" className="block text-sm font-medium text-slate-600 mb-1.5">Task Name</label>
                 <select 
                   id="task-type-filter"
                   value={taskTypeFilter}
